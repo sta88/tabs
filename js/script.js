@@ -6,8 +6,8 @@
 
 		tabs.addEventListener( "click" , function(event) {
 			var elem = event.target,
-				activeTab = document.querySelector('.tabs .active'),
-				activeContent = document.querySelector('.item.active'),
+				activeTab = document.getElementById('tabs').querySelector('.active'),
+				activeContent = document.getElementById('tabs-content').querySelector('.active'),
 				elemAttr = elem.dataset.rel;
 
 			if(elem.nodeName.toLowerCase() == 'li'){
