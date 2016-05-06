@@ -11,8 +11,6 @@
 				elemAttr = elem.dataset.rel;
 
 			if(elem.nodeName.toLowerCase() == 'li'){
-				// elem = elem.querySelector('span');
-				// elemAttr = elem.dataset.rel;
 				return false;
 			}
 			activeTab.classList.remove('active');
